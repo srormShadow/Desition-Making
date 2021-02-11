@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+int main()
+{
+	int choice;
+	
+	printf("check the list below and chose one of them");
+	printf(" 1. Pizza\n");
+	printf(" 2. Burger\n");
+	printf(" 3. Pasta\n");
+	printf(" 4. French Fries\n");
+	printf(" 5. Sandwich\n");
+	
+	scanf("%d",&choice);
+	
+	switch(choice)
+	{
+		case 1:
+			printf("food item - Pizza \nprice = 239");
+			break;
+		case 2:
+			printf("food item - burger \nprice = 90");
+			break;
+		case 3:	
+			printf("food item - Pasta \nprice = 291");
+			break;
+		case 4:
+			printf("food iten - French Fries \nprice = 50");
+			break;
+		case 5:
+			printf("food item - Sandwich \nprice = 100");
+			break;
+	}
+}
